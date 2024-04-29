@@ -11,9 +11,11 @@ import Link from "next/link";
 
 import pratikshit from "@/public/pratikshit.png";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } =  useActiveSectionContext();
 
   return (
     <section
@@ -37,8 +39,7 @@ export default function Intro() {
               width="192"
               height="192"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.30rem] border-white"
-              shadow-xl
+              className="h-24 w-24 rounded-full object-cover border-[0.30rem] border-white shadow-xl"
             />
           </motion.div>
         </div>
@@ -76,6 +77,10 @@ export default function Intro() {
         <Link
           href="#contact"
           className="group flex items-center bg-gray-900 text-white px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:tranlate-x-1 transition" />
@@ -83,7 +88,7 @@ export default function Intro() {
         <a
           href="https://drive.google.com/file/d/159-hIUqwTZR7tNZ9-sMgDYbDxTt_icxR/view?usp=sharing"
           target="_blank"
-          className="group flex items-center bg-white px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/10"
+          className="group flex items-center bg-white px-7 py-3 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition borderBlack dark:bg-white/10"
         >
           Resume{" "}
           <BsEyeFill className="opacity-70 group-hover:tranlate-y-1 transition" />
@@ -91,14 +96,14 @@ export default function Intro() {
         <a
           href="https://www.linkedin.com/in/pratikshit-singh/"
           target="_blank"
-          className="flex items-center bg-white text-gray-700 p-4 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition border border-black/10"
+          className="flex items-center bg-white text-gray-700 p-4 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
         <a
           href="https://github.com/PratikshitSingh"
           target="_blank"
-          className="flex items-center bg-white text-gray-700 p-4 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition border border-black/10"
+          className="flex items-center bg-white text-gray-700 p-4 gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
         </a>
