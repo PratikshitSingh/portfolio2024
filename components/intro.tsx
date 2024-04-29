@@ -59,7 +59,7 @@ export default function Intro() {
         <span className="font-bold">
           Pavement Lifecycle Analysis apps{" "}
         </span> for{" "}
-        <span className="italic">Illinois Center of Transportation.</span>{" "}
+        <span className="italic">Illinois Center of Transportation.</span>{" "} My experience at <span className="italic">JP Morgan Chase</span> and current work has honed my skills in creating scalable, robust software solutions, with a special focus on combining cloud and AI technologies with full-stack development, with blend of Data Science and Machine Learning.
         <br />
         <br />I am driven by the challenge of innovating in the tech landscape,
         and I am always eager to apply my expertise to new, groundbreaking

@@ -47,6 +47,8 @@ export default function About() {
         knowledge and master new technologies. I'm always experimenting with
         innovative ways to automate the mundane aspects of daily life to create
         enjoyable, efficient experiences.
+        <br />
+        Currently when I'm not working you can find me lifting or cycling.
       </p>
     </motion.section>
   );
