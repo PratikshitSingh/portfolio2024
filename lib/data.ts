@@ -1,7 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { FaLaptopCode } from "react-icons/fa";
+import { BsBank } from "react-icons/bs";
 import aesrganImg from "@/public/aesrgan.png";
 import ictmanagerImg from "@/public/ictmanager.png";
 import iprImg from "@/public/ipr.png";
@@ -40,28 +39,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Illinois Center of Transportation, Lead Software Developer",
+    location: "Rantoul, IL",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Designed and implemented multiple containerized(AWS CaaS) web applications for Pavement Life Cycle Assesment with RDBMS, ReactJS, and Django Rest Framework.",
+    icon: React.createElement(FaLaptopCode),
+    date: "Dec 2022 - present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "JP Morgna Chase - Software Engineer II",
+    location: "Bengaluru, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Developed optimization system using Linear Regression & XGB prediction models for risk computation costs, reducing AWS EC2 usage by 84% for the team.",
+    icon: React.createElement(BsBank),
+    date: "Jan 2022 - Aug 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "JP Morgna Chase - Software Engineer I",
+    location: "Bengaluru, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Built user-facing dashboards to display Derivative Trade market risk and P&L reports. Wrote the data massaging and aggregation services triggered by Market Markers.",
+    icon: React.createElement(BsBank),
+    date: "Aug 2020 - Jan 2022",
+  },
+  {
+    title: "JP Morgna Chase - Software Engineering Intern",
+    location: "Bengaluru, India",
+    description:
+      "Developed an automatic dependency upgradation for NodeJS trading app.",
+    icon: React.createElement(BsBank),
+    date: "May 2019 - Jul 2019",
   },
 ] as const;
 
