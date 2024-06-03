@@ -48,7 +48,7 @@ export default function About() {
         innovative ways to automate the mundane aspects of daily life to create
         enjoyable, efficient experiences.
         <br />
-        Currently when I'm not working you can find me lifting or cycling.
+        When I'm not working you can find me lifting or eating.
       </p>
     </motion.section>
   );
