@@ -47,7 +47,7 @@ export const experiencesData = [
         description:
             "Building analytical reporting tools for clients in Adtech industry and developing attributions ETLs for MTA campaigns.",
         icon: React.createElement(FaLaptopCode),
-        tags: ["BIG DATA", "NOSQL", "SQL", "DISTRIBUTED SYSTEMS", "ETL" "REST", "AWS", "DOCKER"],
+        tags: ["BIG DATA", "NOSQL", "SQL", "DISTRIBUTED SYSTEMS", "ETL", "REST", "AWS", "DOCKER"],
         date: "June 2024 - Current",
     },
     {
