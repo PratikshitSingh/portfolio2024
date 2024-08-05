@@ -42,13 +42,22 @@ export const links = [
 
 export const experiencesData = [
     {
+        title: "Zeta Global, Software Engineer",
+        location: "San Francisco, CA",
+        description:
+            "Building analytical reporting tools for clients in Adtech industry and developing attributions ETLs for MTA campaigns.",
+        icon: React.createElement(FaLaptopCode),
+        tags: ["BIG DATA", "NOSQL", "SQL", "DISTRIBUTED SYSTEMS", "ETL" "REST", "AWS", "DOCKER"],
+        date: "June 2024 - Current",
+    },
+    {
         title: "Illinois Center of Transportation, Lead Software Developer",
         location: "Rantoul, IL",
         description:
             "Designed and implemented multiple containerized(AWS CaaS) web applications for Pavement Life Cycle Assesment with RDBMS, ReactJS, and Django Rest Framework.",
         icon: React.createElement(FaLaptopCode),
         tags: ["DJANGO", "REACT", "MANTINE", "POSTGRES", "OPENSOURCE LIBRARIES", "AWS LIGHTSAIL", "DOCKER", "GITHUB ACTIONS"],
-        date: "Dec 2022 - present",
+        date: "Dec 2022 - May 2024",
     },
     {
         title: "JP Morgna Chase - Software Engineer II",
