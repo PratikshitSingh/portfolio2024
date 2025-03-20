@@ -48,7 +48,7 @@ export const experiencesData = [
             "Building analytical reporting tools for clients in Adtech industry and developing attributions ETLs for MTA campaigns.",
         icon: React.createElement(FaLaptopCode),
         tags: ["BIG DATA", "NOSQL", "SQL", "DISTRIBUTED SYSTEMS", "ETL", "REST", "AWS", "DOCKER"],
-        date: "June 2024 - Current",
+        date: "June 2024 - Sep 2024",
     },
     {
         title: "Illinois Center of Transportation, Lead Software Developer",

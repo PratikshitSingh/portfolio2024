@@ -21,8 +21,8 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
         <span className="font-bold">
-          I am open to new opportunities for full-time positions as a software
-          developer. Feel free to contact me if you have any!
+          I am open to new opportunities for full-time positions as a Full Stack 
+          Software Engineer/MLE/AI Engineer. Feel free to contact me if you have any! 
         </span>
       </p>
 
@@ -33,10 +33,10 @@ export default function About() {
         </span>
         . I'm proficient in{" "}
         <span className="font-bold">
-          Python, JavaScript, React, Next.js, Postgres, MongoDB, AWS, Docker,
-          Kubernetes, AI technologies and Kafka
+          Java, Python, JavaScript, React, Next.js, SpringBoot, Django, Flask, Postgres,
+           MongoDB, AWS, Docker, Kubernetes, AI technologies and Kafka.
         </span>
-        . I'm eager to apply these skills in a dynamic software engineering
+        I'm eager to apply these skills in a dynamic software engineering
         role.
       </p>
 
